@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/7337456c0d.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -20,13 +22,38 @@
             }
           }
         }
-      </script>
+    </script>
+    <style>
+      body{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
 </head>
 <body>
-    <header>
-
+    <header class="pl-16 pt-10 mb-20 lg:pl-28">
+      <!-- banner start -->
+      <div class="md:flex">
+        <div>
+          <h1 class="text-5xl font-extrabold md:text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+          <br>
+          <p class="text-[#777777] w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <br>
+          <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+        </div>
+        <!-- image content -->
+        <div class="relative">
+          <div><img class="w-full" src="./images/banner.png" alt=""></div>
+          <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+            <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+            <div class="ml-2">
+              <h2 class="font-bold lg:text-2xl">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
 
     </main>
     <footer>
